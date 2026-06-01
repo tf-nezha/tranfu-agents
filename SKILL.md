@@ -1,6 +1,6 @@
 ---
 name: tranfu-agents
-description: Install and connect this agent to the team's TRANFU//AGENTS live dashboard, so the team can see what everyone's agents are doing (who, which agent, current step, status, active time). Trigger when the user says things like "安装 TRANFU//AGENTS", "install tranfu telemetry", "接入团队 agent 看板", "我是 bob,用 open claw 处理文案" (a who/what self-introduction aimed at joining the board), or links to github.com/tranfu-labs/tranfu-agents asking to install this. Works for Claude Code, Codex, Open Claw, Hermes, and any CLI agent; cloud agents (Manus, MuleRun) are supported at start/end granularity.
+description: Install and connect this agent to the team's TRANFU//AGENTS live dashboard, so the team can see what everyone's agents are doing (who, which agent, current step, status, active time). Trigger when the user says things like "安装 TRANFU//AGENTS", "install tranfu telemetry", "接入团队 agent 看板", "我是 bob,用 open claw 处理文案" (a who/what self-introduction aimed at joining the board), or links to github.com/tf-nezha/tranfu-agents asking to install this. Works for Claude Code, Codex, Open Claw, Hermes, and any CLI agent; cloud agents (Manus, MuleRun) are supported at start/end granularity.
 ---
 
 # TRANFU//AGENTS — 入职(给 agent 读)
@@ -32,7 +32,7 @@ description: Install and connect this agent to the team's TRANFU//AGENTS live da
 ## 第 3 步:安装上报工具(办入职)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tranfu-labs/tranfu-agents/main/install.sh \
+curl -fsSL https://raw.githubusercontent.com/tf-nezha/tranfu-agents/main/install.sh \
   | bash -s -- --server <接入地址> --key <接入密钥> --operator <operator>
 ```
 装完会把工具放到 `~/.tranfu` 并写入 `TF_SERVER / TF_KEY / TF_OPERATOR`——该调度员的 Pod 即建立。

@@ -13,10 +13,10 @@ Key facts:
 - License: MIT. Home: https://tranfu.com
 
 ## Docs
-- [README](https://github.com/tranfu-labs/tranfu-agents/blob/main/README.md): overview, supported agents, features, FAQ.
-- [Deploy guide](https://github.com/tranfu-labs/tranfu-agents/blob/main/DEPLOY.md): self-host the server (admin).
-- [Usage guide](https://github.com/tranfu-labs/tranfu-agents/blob/main/USAGE.md): how a teammate connects an agent in natural language.
-- [Protocol](https://github.com/tranfu-labs/tranfu-agents/blob/main/PROTOCOL.md): the event schema and privacy posture.
+- [README](https://github.com/tf-nezha/tranfu-agents/blob/main/README.md): overview, supported agents, features, FAQ.
+- [Deploy guide](https://github.com/tf-nezha/tranfu-agents/blob/main/DEPLOY.md): self-host the server (admin).
+- [Usage guide](https://github.com/tf-nezha/tranfu-agents/blob/main/USAGE.md): how a teammate connects an agent in natural language.
+- [Protocol](https://github.com/tf-nezha/tranfu-agents/blob/main/PROTOCOL.md): the event schema and privacy posture.
 
 ## Optional
-- [Skill](https://github.com/tranfu-labs/tranfu-agents/blob/main/SKILL.md): agent-readable self-install instructions.
+- [Skill](https://github.com/tf-nezha/tranfu-agents/blob/main/SKILL.md): agent-readable self-install instructions.

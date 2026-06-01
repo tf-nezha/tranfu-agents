@@ -2,7 +2,7 @@
 # One-shot installer for a teammate's machine. Installs the shim clients to
 # ~/.tranfu and wires up whatever runtime you name.
 #
-#   curl -fsSL https://raw.githubusercontent.com/tranfu-labs/tranfu-agents/main/install.sh | bash -s -- \
+#   curl -fsSL https://raw.githubusercontent.com/tf-nezha/tranfu-agents/main/install.sh | bash -s -- \
 #       --server https://agents.tranfu.com --key SECRET --operator alice --runtime codex
 set -e
 SERVER=""; KEY=""; OPERATOR="$USER"; RUNTIME=""
@@ -13,7 +13,7 @@ while [ $# -gt 0 ]; do case "$1" in
 [ -z "$SERVER" ] && { echo "need --server"; exit 1; }
 
 mkdir -p ~/.tranfu
-BASE="https://raw.githubusercontent.com/tranfu-labs/tranfu-agents/main/shims"
+BASE="https://raw.githubusercontent.com/tf-nezha/tranfu-agents/main/shims"
 for f in tf_client.sh tf_client.py tf_profile.py tf_report.py wrapper/tf-run; do
   curl -fsSL "$BASE/$f" -o ~/.tranfu/"$(basename "$f")"
 done

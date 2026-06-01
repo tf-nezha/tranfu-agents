@@ -10,7 +10,7 @@
 
 你日常用的 agent(Claude Code / Codex / Open Claw / Hermes …)大多能读取技能库。直接对它说:
 
-> 安装 https://github.com/tranfu-labs/tranfu-agents 里的 TRANFU//AGENTS,
+> 安装 https://github.com/tf-nezha/tranfu-agents 里的 TRANFU//AGENTS,
 > **我是 bob,用 open claw 处理文案内容。**
 
 agent 会自动:
@@ -51,7 +51,7 @@ bob(调度员)
 **方式二(更省事):管理员把 key 写进话术,你只填身份。**
 管理员发一句现成模板,你把空填上整句发给 agent,一次粘贴搞定:
 
-> 安装 https://github.com/tranfu-labs/tranfu-agents 里的 TRANFU//AGENTS。
+> 安装 https://github.com/tf-nezha/tranfu-agents 里的 TRANFU//AGENTS。
 > server=https://agents.tranfu.com  key=tf_xxxxx
 > 我是 ___,用 ___ 做 ___。
 
