@@ -65,6 +65,9 @@
     background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(6px);position:sticky;top:0;z-index:30;flex-wrap:wrap}
   .logo{display:inline-flex;align-items:center;gap:10px}
   .logo-fb{width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,var(--brand),#a60f1a);transform:skewX(-11deg)}
+  .logo-tile{display:inline-flex;align-items:center;padding:4px;border-radius:6px}
+  body.light .logo-tile{background:#0b0b0c}
+  .logo-mark{height:20px;width:auto;display:block}
   .wm{font-weight:700;font-size:16px;letter-spacing:.04em}.wm i{color:var(--brand);font-style:normal}
   nav.tabs{display:flex;gap:2px;margin-left:6px}
   nav.tabs button{font-size:12.5px;color:var(--muted);padding:6px 12px;border-radius:7px;font-weight:500}
@@ -197,7 +200,7 @@
 </head>
 <body>
 <header>
-  <span class="logo"><span class="logo-fb" aria-hidden="true"></span><span class="wm">TRANFU<i>//</i>AGENTS</span></span>
+  <span class="logo"><span class="logo-tile"><img class="logo-mark" src="https://tranfu.com/brand/logo/svg/logo-symbol-primary-on-dark.svg" alt="TRANFU" onerror="this.onerror=null;this.outerHTML='<span class=&quot;logo-fb&quot;></span>'"></span><span class="wm">TRANFU<i>//</i>AGENTS</span></span>
   <nav class="tabs">
     <button id="tab-board" class="on" onclick="go('board')"></button>
     <button id="tab-agents" onclick="go('agents')"></button>
